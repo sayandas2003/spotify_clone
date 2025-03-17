@@ -162,11 +162,11 @@ a {
     margin-right: 1rem;
 }
 
-/* @media (max-width: 1000px) {
+@media (max-width: 1000px) {
     .hide {
         display: none;
     }
-} */
+}
 
 
 .card {
@@ -227,15 +227,8 @@ a {
 
 .player {
     width: 50%;
-    /* background-color: orange; */
 }
 
-.controls {
-    width: 25%;
-    /* background-color: yellow; */
-    display: flex;
-
-}
 
 .player-controls {
     display: flex;
@@ -319,6 +312,17 @@ a {
     padding-left: 0.7rem;
 }
 
-.controls i{
-    padding-left: 0.5rem;
+
+.controls-items{
+    padding: 0 0.3rem 0 0.3rem;
+}
+
+.controls {
+    width: 25%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.volume-bar {
+    width: 8rem;
 }
